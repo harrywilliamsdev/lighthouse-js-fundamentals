@@ -16,3 +16,21 @@ else {
 }
 
 console.log('Now you\'re ready to go outside!');
+
+// Logical Operators in conditionals
+
+const isCitizen = true;
+const age = 26;
+
+// AND 
+
+if (isCitizen && age > 18) {
+  console.log("You are eligible to vote.");
+}
+
+// OR
+
+if (temperature < -40 || temperature > 40) {
+  console.log("Leave your umbrella at home");
+}
+
